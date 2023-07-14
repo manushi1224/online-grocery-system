@@ -1,0 +1,511 @@
+.carousel-indicators {
+  position: static;
+}
+
+.carousel-indicators li {
+  width: 600px;
+  height: 100%;
+  opacity: 0.8;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+
+body {
+  background-color: #eee;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+/* .height {
+  height: 100vh;
+} */
+
+@media only screen and (max-width:992px) {
+  .navmob {
+    background-color: #84c225 !important;
+    /* width: 110%; */
+    margin-left: -5px;
+  }
+
+  .search button {
+    background-color: transparent !important;
+  }
+
+  .search button:hover {
+    border: 1px solid #0a1622;
+  }
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.search {
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+  width: 40vw;
+}
+
+.search input {
+
+  height: 40px;
+  text-indent: 25px;
+  border: 2px solid #d6d4d4;
+  border-radius: 0px;
+}
+
+
+.search input:focus {
+
+  box-shadow: none;
+  border: 2px solid gray;
+
+}
+
+.search .fa-search {
+
+  position: absolute;
+  /* top: 20px; */
+  left: 16px;
+
+}
+
+.search button {
+  border: #84c225;
+  border-radius: 0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 40px;
+  width: 40px;
+  background: #84c225;
+
+}
+
+.search button:hover {
+  background: #84c225;
+}
+
+.sright {
+  /* align-content: flex-end; */
+  text-decoration: none;
+  color: darkgray;
+
+  /* margin-right: 6rem; */
+}
+
+.basket {
+  /* background-color: darkgray; */
+  position: relative;
+}
+
+.cont {
+  height: 40px;
+}
+
+@media only screen and (max-width :992px) {
+  .hide {
+    display: none !important;
+  }
+
+  .search {
+    margin-left: -5vw;
+    width: 85vw;
+  }
+}
+
+/* items carousel */
+
+.card-st {
+  /* width: 15vw; */
+  height: 20rem;
+}
+
+.cardh {
+  border: none;
+}
+
+.cardh:hover {
+  box-shadow: 0px 0px 20px grey;
+}
+
+.card {
+  border: none;
+  /* height: 20rem; */
+}
+
+.card-img-top {
+  height: 155px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.2rem !important;
+}
+
+.card-text {
+  margin-bottom: 1rem;
+}
+
+.cartl {
+  margin-right: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.btn-primary {
+  margin-left: 2rem;
+  width:15vw;
+  background-color: #0a1622;
+  border-color: #0a1622;
+  justify-content: center;
+}
+
+.btn-primary:hover {
+  background-color: #84c225;
+  border-color: #84c225;
+}
+
+.addcart{
+  width: 4rem;
+  float: left;
+}
+
+.price{
+  font-size: 20px !important;
+}
+
+@media only screen and (max-width:992px){
+  .btn-primary{
+    margin-left: 1rem;
+    width:12rw;
+    margin-bottom: 1rem;
+  }
+  .card-st{
+    height: auto;
+    /* margin: 0 30px; */
+  }
+}
+
+@media only screen and (max-width:768px){
+  .card-st{
+    height: auto;
+    /* margin: 0 30px; */
+  }
+  .card-img-top{
+    width: 100%;
+    height: 100px;
+  }
+  .card-text{
+    font-size: 10px !important;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .card-title{
+    font-size: 15px !important;
+  }
+  .add-to-cart{
+    margin: 0.3rem;
+    width: 90%;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width:575px){
+  .card-st{
+    width: 9rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .card-img-top{
+    height: auto;
+  }
+}
+
+
+.move:hover{
+  transform:translateY(-15px);
+}
+
+/* @media only screen and (max-width:500px) {
+  .card {
+    width: 10rem;
+  }
+
+  .btn-primary {
+    width: 25vw !important;
+    font-size: 15px !important;
+    height: 4vh !important;
+  } 
+
+  .cartl {
+    margin-right: 0rem;
+  }
+} */
+
+
+
+/* @media (min-width: 576px) {
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+} */
+
+.catdrop {
+  border-radius: 0;
+  /* padding: 1px; */
+  background-color: #84c225 !important;
+  border: #84c225;
+}
+
+.social {
+  border-radius: 50%;
+  /* width:2.5rem; */
+  height: 2.5rem;
+  /* margin-left: 0; */
+}
+
+.drpmenu {
+  border-radius: 0px;
+  box-shadow: 0px 0px 20px grey;
+}
+
+.sidenav {
+  text-align: start;
+  border-radius: 0;
+  /* padding: 1px; */
+  /* background-color: #84c225 !important; */
+  /* border: #84c225; */
+  color: #0a1622 !important;
+  /* width:100%; */
+  /* font-size: small; */
+}
+
+.sidebar {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: white;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  /* text-align: center; */
+  text-decoration: none;
+  font-size: 20px;
+  color: #0a1622 !important;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: gray;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  /* color: white; */
+  /* padding: 10px 15px; */
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: transparent;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  /* If you want a transition effect */
+  /* padding: 20px; */
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+
+/* submenu */
+
+.dropdown-menu li {
+  position: relative;
+}
+
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  border-radius: 0px;
+  left: 100%;
+  top: -7px;
+  box-shadow: 0px 0px 20px grey;
+}
+
+.dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+}
+
+.dropdown-menu>li:hover>.dropdown-submenu {
+  display: block;
+}
+
+.dropend:hover>.dropdown-menu {
+  position: relative;
+  display: block;
+  border-radius: 0px;
+  border: none;
+  /* padding: 0px !important; */
+  width: 1rem !important;
+  margin-left: 10px;
+}
+
+.minus-item{
+  background-color: #0a1622;
+  color:white;
+  width:30px;
+}
+.plus-item{
+  background-color: #0a1622;
+  color:white;
+  width:30px;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+/* .container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+} */
+/* body {
+  background: rgb(141,194,111);
+  background: linear-gradient(90deg, rgba(141,194,111,1) 0%, rgba(118,184,82,1) 50%);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+} */
